@@ -57,3 +57,13 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+
+class Demo extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'Welcome to Flutter',
+      home: new MainPage(title: 'Statefulwidget')
+    );
+  }
+}
